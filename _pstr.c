@@ -1,6 +1,7 @@
 #include "monty.h"
 /**
- * _pstr - Prints the string starting at the top of the stack, followed by a new line.
+ * _pstr - Prints the string starting at the top of the stack, followed by
+ * a new line.
  * @stack: Double pointer to the top of the stack.
  * @line_number: The current line number of the opcode in the Monty file.
  */

@@ -21,10 +21,10 @@ void _pop(stack_t **stack, unsigned int line_number)
 
 	/* Free the memory allocated for the current top node of the stack */
 	free(*stack);
-	
+
 	/* Update the head pointer to point to the new top node */
 	*stack = new_top;
-	
+
 	if (*stack != NULL)
 	/* Update the prev pointer of the new top node to NULL */
 		(*stack)->prev = NULL;
