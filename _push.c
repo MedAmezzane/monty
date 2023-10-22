@@ -52,3 +52,4 @@ int is_valid_number(char *str)
 
     return (1);
 }
+

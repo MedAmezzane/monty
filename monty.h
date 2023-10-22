@@ -77,7 +77,7 @@ void _pstr(stack_t **stack, unsigned int line_number);
 
 /* Helpers */
 stack_t *add_node(stack_t **stack, const int n);
-int is_number(char *str);
+int is_valid_number(char *str);
 void free_stack(stack_t *stack);
 
 #endif /* MONTY.H */
