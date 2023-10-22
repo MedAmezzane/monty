@@ -58,8 +58,8 @@ typedef struct instruction_s
 } instruction_t;
 
 /* Function prototypes */
-void execute_file(stack_t **stack);
-void execute_opcode(char *opcode, stack_t **stack, unsigned int line_number);
+void executeFile(stack_t **stack);
+void executeOpcode(char *opcode, stack_t **stack, unsigned int line_number);
 
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
